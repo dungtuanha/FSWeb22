@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASK</title>
+</head>
+<body>
+    <h1>Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không</h1>
+    <form action="/addquestion" method="POST">
+        <p><textarea name="question" maxlength="200" cols="30" rows="10"></textarea></p>
+        <p><span>Còn <span id="remain">200</span>/200 kí tự</span></p>
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <script src="/public/ask.js"></script>
+</body>
+</html>
